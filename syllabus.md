@@ -17,8 +17,7 @@ Prerequisites
 This course will be insane, and students are expected to learn the necessary technologies. Students will expected to already understand networking and the TCP/IP stack. Students with strong skills in C/C++, x86 assembly and at least one scripting language (Python, Ruby, Javascript, etc.) 
 
 
-`To benefit from this course you need to know and be comfortable with x86 assembly. 
-This is not negotiable!`
+`To benefit from this course you need to know and be comfortable with x86 assembly. This is not negotiable!`
 `Hint: I did this syllabus using windows 7 x86 enterprise , and Windows 10 Home Single Language 64-bit`
 
 Course Topic
