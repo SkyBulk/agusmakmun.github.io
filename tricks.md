@@ -1,4 +1,8 @@
-# Handy Commands for Vulnerability Research
+---
+layout: page
+title: Handy Commands for Vulnerability Research
+permalink: /tricks/
+---
 
 ## mona
 
