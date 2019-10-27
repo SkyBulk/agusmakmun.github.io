@@ -35,7 +35,7 @@ urls:
       url: /tricks/
 
 url: "https://skybulk.github.io"
-baseurl: "/skybulk"
+baseurl: ""
 paginate: 20
 per_page: 20
 paginate_path: "/page/:num/"
