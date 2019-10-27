@@ -4,7 +4,7 @@ author: Aaron Imperial
 github: https://github.com/SkyBulk/exploit-development
 about: Vulnerability research guy who's constantly learning new ways to break software.
 google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/avatar.png
+avatar_url:
 
 enableTags: true
 tagarray: []
