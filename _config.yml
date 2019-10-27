@@ -31,8 +31,8 @@ urls:
       url: /about/
     - text: Syllabus
       url: /syllabus/
-    - text: lol
-      url: /lol/
+    - text: tricks
+      url: /tricks/
 
 url: "https://github.com/SkyBulk/skybulk.github.io/"
 baseurl: ""
