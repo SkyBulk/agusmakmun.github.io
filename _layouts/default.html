@@ -45,6 +45,8 @@ layout: compress
 
     {% if page.image %}
       <meta content="{{ site.url }}/static/img/posts/{{ page.image }}" property="og:image">
+    {% else %}
+      <meta content="{{ site.url }}{{ site.avatar_url }}" property="og:image">
     {% endif %}
 
     {% if page.categories %}
@@ -84,13 +86,13 @@ layout: compress
     {% endif %}
 
     <!-- Font awesome icons -->
-    <link href="/static/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet">
     <!-- syntax highlighting CSS -->
     <link rel="stylesheet" href="/static/css/syntax.css">
     <!-- Bootstrap core CSS -->
     <link href="/static/css/bootstrap.min.css" rel="stylesheet">
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300italic,300,400italic,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link href="/static/css/fonts.css" rel="stylesheet" type="text/css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/static/css/super-search.css">
     <link rel="stylesheet" href="/static/css/thickbox.css">
@@ -114,7 +116,8 @@ layout: compress
     <div class="container">
       <div class="col-sm-3">
         <div class="fixed-condition">
-          <h1 class="author-name"><a href="/">{{ site.author }}</a></h1>
+          <a href="/"><img class="profile-avatar" src="{{ site.avatar_url }}" height="75px" width="75px" /></a>
+          <h1 class="author-name">{{ site.author }}</h1>
           {% if site.about %}
             <div class="profile-about">
               {{ site.about }}
@@ -157,8 +160,8 @@ layout: compress
 
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/static/js/jquery-1.11.0.min.js"></script>
+    <script src="/static/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
     <script src="/static/js/super-search.js"></script>
     <script src="/static/js/thickbox-compressed.js"></script>
