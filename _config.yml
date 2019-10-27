@@ -29,10 +29,10 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: My Projects
-      url: /projects/
     - text: Syllabus
       url: /syllabus/
+    - text: tricks
+      url: /tricks/
 
 url: "https://github.com/SkyBulk/skybulk.github.io/"
 baseurl: ""
