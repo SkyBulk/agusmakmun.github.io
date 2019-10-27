@@ -33,7 +33,7 @@ urls:
     - text: tricks
       url: /tricks/
 
-url: "https://github.com/SkyBulk/skybulk.github.io/"
+url: "https://skybulk.github.io"
 baseurl: "/skybulk"
 paginate: 20
 per_page: 20
