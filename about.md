@@ -1,9 +1,13 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+I'm a Vulnerability Reseacher for desktop apps. I've made quite a few vulnerability research , especially on memory corruption. Now, I am doing more interested on browser security & writting some malware poc for fun.
 
-email: agus[at]python.web.id
+email: aronimperial20[at]gmail.com
+
+<div>
+{% include timeline.html %}
+</div>
