@@ -144,5 +144,6 @@ d fs:[0] # view seh chain
 
 ### Tracing API calls on Windows
 
-- drstrace DynamoRIO
+- Drstrace DynamoRIO
+- Drltrace DynamoRIO
 - Dependency Walker
